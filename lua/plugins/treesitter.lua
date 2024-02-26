@@ -13,4 +13,5 @@ return {
       },
       sync_isntall = true,
     }
+  end
 }
