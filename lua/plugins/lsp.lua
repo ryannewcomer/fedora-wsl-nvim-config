@@ -12,5 +12,8 @@ return {
     --setup html
     lsp.html.setup{}
 
+    --setup python
+    lsp.pylsp.setup{}
+
   end
 }
