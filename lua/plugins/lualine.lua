@@ -1,6 +1,7 @@
 return {
-  'nvim-lualine/lualine.nvim'
+  'nvim-lualine/lualine.nvim',
   dependencies = { 'nvim-tree/nvim-web-devicons'},
+  lazy = false,
   config = function()
     -- Bubbles config for lualine
 -- Author: lokesh-krishna
@@ -63,5 +64,6 @@ require('lualine').setup {
   },
   tabline = {},
   extensions = {},
-},
+}
+end
   }
