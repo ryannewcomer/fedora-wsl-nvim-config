@@ -2,6 +2,7 @@ return {
   'hrsh7th/nvim-cmp',
   dependencies = 'neovim/nvim-lspconfig', 'L3MON4D3/LuaSnip', 'hrsh7th/cmp-nvim-lsp',
   event = {"InsertEnter", "CmdlineEnter"},
+  lazy = false,
   config = function()
  -- Set up nvim-cmp.
   local cmp = require'cmp'
