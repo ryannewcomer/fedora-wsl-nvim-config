@@ -12,6 +12,9 @@ return {
         "gitcommit"
       },
       sync_isntall = true,
+      autotag = {
+        enable = true,
+      }
     }
   end
 }
